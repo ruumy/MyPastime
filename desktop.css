@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+#head {
+  background-image: url(art.jpg);
+	height: 300px;
+}
+
+#head h1 {
+	display : none;
+}
+
+#content input {
+  width: 100%;
+	padding: 70px;
+	margin-top: 30px;
+	background-color: #ccddff;
+	color: #cc33ff;
+	text-align: center;
+	font-size: 50px;
+	box-shadow: 0 1px 3px raba(0,0,0,0,12), 0 1px 2px rgba(0,0,0,0,24);
+}
+
+#content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#content li {
+	padding: 50px;
+	margin-top: 30px;
+	background-color: #f2e6ff;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 0 1px 3px raba(0,0,0,0,12), 0 1px 2px rgba(0,0,0,0,24);
+}
+
+.foot {
+	width: 100%;
+	background-color: #cc33ff;
+	border-top-width: 1px;
+	border-top-style: solid;
+	padding: 10px;
+	color: #fff;
+	margin-top: 10px;
+	clear: left;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+}
